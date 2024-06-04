@@ -1,0 +1,9 @@
+#Arquivos que não precisam ir para o servidor
+
+*.log
+#Arquivo de cache do python 
+*.pyc
+__pycache__
+/.mypy_cache
+/.vscode
+/venv
