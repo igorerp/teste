@@ -35,7 +35,7 @@ DEBUG = os.getenv('DEBUG', 'False') == "True"
 CORS_ALLOWED_ORIGINS = os.getenv('CORS_ALLOWED_ORIGINS', 'http://localhost').split(',')
 
 #Quem pode fazer host do projeto em django.
-ALLOWED_HOSTS = os.getenv('CORS_ALLOWED_ORIGINS', 'http://localhost').split(',')
+ALLOWED_HOSTS = os.getenv('DJANGO_ALLOWED_ORIGINS', 'http://localhost').split(',')
 
 
 # Application definition
