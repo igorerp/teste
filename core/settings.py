@@ -32,10 +32,10 @@ DEBUG = os.getenv('DEBUG', 'False') == "True"
 
 #Como isso é obrigado a ser um array(lista), converter string para array usando o split. Vamos poder colocar vários sites que vão poder acessar a API. Após a configuração do...
 #frontend, será colocado aqui o domínio gerado pela digitalocean.
-CORS_ALLOWED_ORIGINS = os.getenv('CORS_ALLOWED_ORIGINS', 'http://localhost').split(',')
+CORS_ALLOWED_ORIGINS = os.getenv('CORS_ALLOWED_ORIGINS', 'https://teste-erp-ceco9.ondigitalocean.app').split(',')
 
 #Quem pode fazer host do projeto em django.
-ALLOWED_HOSTS = os.getenv('DJANGO_ALLOWED_ORIGINS', 'http://localhost').split(',')
+ALLOWED_HOSTS = os.getenv('DJANGO_ALLOWED_ORIGINS', 'https://teste-erp-ceco9.ondigitalocean.app').split(',')
 
 
 # Application definition
